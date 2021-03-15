@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		41FEE4150C1849247E69678B /* Pods_Tweets_TweetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C368AFB016C125A33B9E1D35 /* Pods_Tweets_TweetsUITests.framework */; };
 		4B204C5B26000EE800670BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B204C5A26000EE800670BC7 /* AppDelegate.swift */; };
-		4B204C5D26000EE800670BC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B204C5C26000EE800670BC7 /* SceneDelegate.swift */; };
 		4B204C5F26000EE800670BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B204C5E26000EE800670BC7 /* ViewController.swift */; };
-		4B204C6226000EE800670BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B204C6026000EE800670BC7 /* Main.storyboard */; };
 		4B204C6426000EEA00670BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B204C6326000EEA00670BC7 /* Assets.xcassets */; };
 		4B204C6726000EEA00670BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B204C6526000EEA00670BC7 /* LaunchScreen.storyboard */; };
 		4B204C7226000EEA00670BC7 /* TweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B204C7126000EEA00670BC7 /* TweetsTests.swift */; };
 		4B204C7D26000EEA00670BC7 /* TweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B204C7C26000EEA00670BC7 /* TweetsUITests.swift */; };
+		4B204CC12600132A00670BC7 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B204CC02600132A00670BC7 /* Welcome.storyboard */; };
+		4B6931752600240A002BF310 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6931742600240A002BF310 /* WelcomeViewController.swift */; };
+		4B69317A2600241B002BF310 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6931792600241B002BF310 /* LoginViewController.swift */; };
+		4B69317F26002431002BF310 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B69317E26002431002BF310 /* RegisterViewController.swift */; };
 		B243E1925B222A808BA44102 /* Pods_TweetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32AB78A88C81E0BA4DBF080 /* Pods_TweetsTests.framework */; };
 		CAFA159EE584144D930F3100 /* Pods_Tweets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C41BD1830D0E0568417D6B /* Pods_Tweets.framework */; };
 /* End PBXBuildFile section */
@@ -44,9 +46,7 @@
 		381B20CEC7291AB8FA13EA5B /* Pods-TweetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetsTests.release.xcconfig"; path = "Target Support Files/Pods-TweetsTests/Pods-TweetsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B204C5726000EE800670BC7 /* Tweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B204C5A26000EE800670BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B204C5C26000EE800670BC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B204C5E26000EE800670BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B204C6126000EE800670BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B204C6326000EEA00670BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B204C6626000EEA00670BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B204C6826000EEA00670BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +56,10 @@
 		4B204C7826000EEA00670BC7 /* TweetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B204C7C26000EEA00670BC7 /* TweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsUITests.swift; sourceTree = "<group>"; };
 		4B204C7E26000EEA00670BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B204CC02600132A00670BC7 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		4B6931742600240A002BF310 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4B6931792600241B002BF310 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B69317E26002431002BF310 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A5C41BD1830D0E0568417D6B /* Pods_Tweets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32AB78A88C81E0BA4DBF080 /* Pods_TweetsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C368AFB016C125A33B9E1D35 /* Pods_Tweets_TweetsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweets_TweetsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,12 +120,8 @@
 		4B204C5926000EE800670BC7 /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
-				4B204C5A26000EE800670BC7 /* AppDelegate.swift */,
-				4B204C5C26000EE800670BC7 /* SceneDelegate.swift */,
-				4B204C5E26000EE800670BC7 /* ViewController.swift */,
-				4B204C6026000EE800670BC7 /* Main.storyboard */,
-				4B204C6326000EEA00670BC7 /* Assets.xcassets */,
-				4B204C6526000EEA00670BC7 /* LaunchScreen.storyboard */,
+				4B204CBB260012AD00670BC7 /* Modules */,
+				4B204CBA2600129E00670BC7 /* Commons */,
 				4B204C6826000EEA00670BC7 /* Info.plist */,
 			);
 			path = Tweets;
@@ -145,6 +145,36 @@
 			path = TweetsUITests;
 			sourceTree = "<group>";
 		};
+		4B204CBA2600129E00670BC7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4B204C5A26000EE800670BC7 /* AppDelegate.swift */,
+				4B204C5E26000EE800670BC7 /* ViewController.swift */,
+				4B204C6326000EEA00670BC7 /* Assets.xcassets */,
+				4B204C6526000EEA00670BC7 /* LaunchScreen.storyboard */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		4B204CBB260012AD00670BC7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4B204CBF260012FE00670BC7 /* Welcome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4B204CBF260012FE00670BC7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4B204CC02600132A00670BC7 /* Welcome.storyboard */,
+				4B6931742600240A002BF310 /* WelcomeViewController.swift */,
+				4B6931792600241B002BF310 /* LoginViewController.swift */,
+				4B69317E26002431002BF310 /* RegisterViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		87D6EFD54A519DB1D9C85878 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +185,6 @@
 				26180B0606281FBD95A47013 /* Pods-TweetsTests.debug.xcconfig */,
 				381B20CEC7291AB8FA13EA5B /* Pods-TweetsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +308,7 @@
 			files = (
 				4B204C6726000EEA00670BC7 /* LaunchScreen.storyboard in Resources */,
 				4B204C6426000EEA00670BC7 /* Assets.xcassets in Resources */,
-				4B204C6226000EE800670BC7 /* Main.storyboard in Resources */,
+				4B204CC12600132A00670BC7 /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +436,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B69317A2600241B002BF310 /* LoginViewController.swift in Sources */,
+				4B69317F26002431002BF310 /* RegisterViewController.swift in Sources */,
+				4B6931752600240A002BF310 /* WelcomeViewController.swift in Sources */,
 				4B204C5F26000EE800670BC7 /* ViewController.swift in Sources */,
 				4B204C5B26000EE800670BC7 /* AppDelegate.swift in Sources */,
-				4B204C5D26000EE800670BC7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B204C6026000EE800670BC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B204C6126000EE800670BC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B204C6526000EEA00670BC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -587,7 +610,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZA89MMVEZ;
 				INFOPLIST_FILE = Tweets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -595,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Avasquez.Tweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -606,7 +631,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZA89MMVEZ;
 				INFOPLIST_FILE = Tweets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,7 +641,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Avasquez.Tweets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
