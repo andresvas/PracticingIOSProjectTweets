@@ -43,6 +43,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerButtonAction" destination="M7M-SS-bqr" eventType="touchUpInside" id="BWI-fS-kuE"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -67,6 +70,10 @@
                     <navigationItem key="navigationItem" title="Registro" id="CuR-6g-Ktg"/>
                     <connections>
                         <outlet property="RegisterButton" destination="55l-qQ-eAX" id="rci-zz-OqJ"/>
+                        <outlet property="emailTextField" destination="lql-ka-7Dk" id="lLa-od-n2P"/>
+                        <outlet property="namesTextField" destination="Z4g-cx-H44" id="HyW-vs-3o5"/>
+                        <outlet property="passwordTestField" destination="Ykf-c9-sF4" id="ClX-RZ-snF"/>
+                        <segue destination="IWd-sS-Chh" kind="presentation" identifier="showHome" modalPresentationStyle="fullScreen" id="Gd0-nN-Asj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUe-f5-dba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -102,6 +109,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginButtonAction" destination="DKl-IW-QsN" eventType="touchUpInside" id="CTv-wh-Pgf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -122,12 +132,23 @@
                     </view>
                     <navigationItem key="navigationItem" title="Iniciar Sesión" id="Kpr-TD-fM3"/>
                     <connections>
+                        <outlet property="emailTextField" destination="hhj-cU-Q1d" id="4QZ-CS-4np"/>
                         <outlet property="loginButton" destination="OPI-K1-fu4" id="36c-Du-HF1"/>
+                        <outlet property="passwordTestField" destination="Kaq-J3-qUa" id="amt-Iv-fiY"/>
+                        <segue destination="IWd-sS-Chh" kind="presentation" identifier="showHome" modalPresentationStyle="fullScreen" id="MkH-7F-tOf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gbe-IT-Fde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1213.0434782608697" y="265.84821428571428"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="IYb-N2-dUA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="IWd-sS-Chh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jo0-Zd-8Db" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984" y="632"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="7EJ-t7-9Xf">
@@ -237,6 +258,9 @@
             <point key="canvasLocation" x="-591" y="740"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="MkH-7F-tOf"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="bottomImage" width="351.5" height="123"/>
         <image name="loginBg" width="640" height="425"/>
